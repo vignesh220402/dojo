@@ -1,0 +1,82 @@
+/* Existing styles */
+.first img {
+    position: absolute;
+    top: 45px;
+    left: 200px;
+}
+.exit-btn {
+    position: absolute;
+    top: 45px;
+    right: 200px;
+    background-color: rgb(2, 17, 41);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+.exit-btn a {
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+.Next-btn {
+    position: absolute;
+    bottom: 104px;
+    right: 200px;
+    background-color: rgb(2, 17, 41);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+.Next-btn a {
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+    .first img {
+        left: 150px;
+    }
+    .exit-btn {
+        right: 150px;
+        width: 90px;
+    }
+    .Next-btn {
+        right: 170px;
+        width: 90px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .first img {
+        left: 120px;
+    }
+    .exit-btn {
+        right: 120px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .first img {
+        left: 80px;
+    }
+    .exit-btn {
+        right: 80px;
+        width: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .first img {
+        left: 50px;
+    }
+    .exit-btn {
+        right: 50px;
+        width: 60px;
+    }
+}
